@@ -1,0 +1,89 @@
+@import "../../index";
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+main {
+    section {
+        .main-image {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+                img {
+                    height: 30%;
+                    width: 30%;
+                }
+        }
+    }
+}
+
+
+main {
+    section {
+        .main-image2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                img {
+                    height: 50%;
+                    width: 50%;
+                }
+        }
+    }
+}
+
+
+main {
+    section {
+        .main-image3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                img {
+                    height: 50%;
+                    width: 50%;
+                }
+        }
+    }
+}
+
+
+main {
+    section {
+        .main-image4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                img {
+                    height: 50%;
+                    width: 50%;
+                }
+        }
+    }
+}
+
+.information-box {
+    background-color: #5cf0f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .image-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}

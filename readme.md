@@ -12,7 +12,10 @@
 
 - A link (URL) to your published portfolio website
 
+
 - A link to your GitHub repo
+
+https://github.com/JarupongMin/T1A2-Portfolio
 
 - A link to your presentation video
 

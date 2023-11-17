@@ -1,0 +1,143 @@
+header {
+  background-color: rgb(109, 231, 255);
+  padding: 16px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  header .logo-name {
+    margin-bottom: 48px;
+  }
+}
+header .logo-name img {
+  width: 100px;
+}
+header .logo-name .name {
+  font-size: 32px;
+}
+header .logo-name .name .coder-text {
+  color: #45a7c5;
+}
+header .logo-name .name .academy-text {
+  color: #1c3c5c;
+}
+header #nav-items {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+header #nav-items a {
+  text-decoration: none;
+  color: rgb(21, 21, 255);
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  header .logo-name .name {
+    margin-bottom: 0;
+  }
+  header #nav-items {
+    width: 50%;
+  }
+}
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(109, 231, 255);
+  padding: 16px;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 32px;
+}
+footer .social-media a i {
+  color: #E0FBFC;
+  font-size: 75px;
+}
+footer .social-media .info {
+  color: rgba(22, 21, 21, 0.664);
+}
+
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+body {
+  margin: 0;
+  background-color: #FFFAFA;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main form .form-elements {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+main form .form-elements label {
+  font-size: 1.2rem;
+}
+main form .form-elements .form-input {
+  border: 1px solid rgb(109, 231, 255);
+  border-radius: 4px;
+  outline: none;
+  font-size: 1.2rem;
+}
+main form .form-elements .form-input#form-textarea {
+  resize: none;
+}
+main form .form-elements .form-input:not(#form-textarea) {
+  height: 35px;
+}
+main form .form-elements .form-input:focus {
+  box-shadow: 0 0 10px 3px rgb(109, 231, 255);
+}
+main form .btn-div {
+  text-align: center;
+}
+main form .btn-div #submit {
+  height: 40px;
+  background-color: rgb(109, 231, 255);
+  border: none;
+  min-width: 120px;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 600px) {
+  main form {
+    width: 500px;
+  }
+  main form .form-elements {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main form .form-elements .form-input {
+    width: 70%;
+  }
+}/*# sourceMappingURL=contact.css.map */
